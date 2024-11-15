@@ -12,7 +12,7 @@ import lombok.Setter;
 
 @Entity
 @Getter
-@Setter
+@Setter	
 @NoArgsConstructor
 
 public class Address {
@@ -37,8 +37,4 @@ public class Address {
 		return "Address [streetName=" + streetName + ", city=" + city + ", zipcode=" + zipcode + ", state=" + state
 				+ "]";
 	}
-	
-	
-	
-
 }
